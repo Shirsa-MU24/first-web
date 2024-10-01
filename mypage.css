@@ -1,0 +1,63 @@
+
+         /* style instälningar för hela kroppen */
+        body {
+            font-family: arial, sans-serif;
+            background-color: aqua;
+            margin: 20;
+            padding: 20;
+            color: #333;
+            display: flex; /* fexa layouten*/
+            flex-direction: column; /* layout i vertikal riktning*/
+            min-height: 100vh; /* sidan ska alltid vara minst lika hög som fönstret */
+        }
+           /*header style*/
+        header {
+            background-color: #4c4c4c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+        }
+
+           /* stillar för huvudsektionen main*/
+        main {
+            width: 80%;
+            margin: 200px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+        }
+
+        /*style för rubriken 2*/
+        h1 { 
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        section {
+            margin-bottom: 200px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        
+        /* style för footer*/
+        footer {
+           
+            color: white;
+            text-align: left;
+            padding: 20px;
+            border-top: 20px ;
+            border-bottom: 2px solid #333;
+        }
+
+        a {
+            color: #4c4c4c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+      
