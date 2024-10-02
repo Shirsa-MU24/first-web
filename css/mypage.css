@@ -3,10 +3,11 @@
         body {
             font-family: arial, sans-serif;
             background-color: aqua;
-            margin: 20;
-            padding: 20;
+            width: auto;
+            height: auto;
+            margin: 0;
+            padding: 20px;
             color: #333;
-            display: flex; /* fexa layouten*/
             flex-direction: column; /* layout i vertikal riktning*/
             min-height: 100vh; /* sidan ska alltid vara minst lika hög som fönstret */
         }
@@ -31,14 +32,27 @@
         h1 { 
             font-size: 2.5em;
             color: #333;
+            text-align: center;
         }
 
+        /* ge specifika stillar för all element inom section.*/
         section {
             margin-bottom: 200px;
+            height: auto;
+            background-color: gold;
         }
         ul {
             list-style-type: square;
             padding-left: 20px;
+        }
+
+        .box {
+            background-color: rebeccapurple;
+            height: 100px;
+            width: auto;
+            padding: 10px;
+            margin: 10px;
+
         }
         
         /* style för footer*/
